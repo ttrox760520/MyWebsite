@@ -1,0 +1,42 @@
+﻿@model myhtml.Models.Home.IndexModel
+@{
+    ViewBag.Title = "首頁";
+}
+
+    <div class="jumbotron">
+        
+        <FONT FACE="標楷體" size="6" COLOR="#009FCC">
+                <B>陳彥廷老師的自然教室</B>
+        </FONT><br>
+        <FONT FACE="標楷體" size="5" COLOR="#666666">
+            歡迎大家來到彥廷老師的自然教室，希望大家都能快樂愉快的學習！
+        </FONT><p>
+        <p><a href="https://www.facebook.com/profile.php?id=100000305285018&ref=bookmarks" class="btn btn-primary btn-lg">連結至Facebook &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <h3>關於彥廷老師</h3>
+        <p>
+            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+            enables a clean separation of concerns and gives you full control over markup
+            for enjoyable, agile development.
+        </p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">我的履歷 &raquo;</a></p>
+    </div>
+    <div class="col-md-6">
+        <h3>最新消息</h3>
+        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-3">
+        <h3>與彥廷老師聯繫</h3>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+
+    
+</div>
+<span>
+    @Model.text
+</span>
