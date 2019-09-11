@@ -92,3 +92,5 @@ D:\C#CORE\012\myhtml\myhtml\bin\System.Web.Http.WebHost.xml
 D:\C#CORE\012\myhtml\myhtml\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
 D:\C#CORE\012\myhtml\myhtml\bin\zh-Hant\System.Web.Http.resources.dll
 D:\C#CORE\012\myhtml\myhtml\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+D:\C#CORE\012\myhtml\myhtml\bin\BaseLibrary.dll
+D:\C#CORE\012\myhtml\myhtml\bin\BaseLibrary.pdb

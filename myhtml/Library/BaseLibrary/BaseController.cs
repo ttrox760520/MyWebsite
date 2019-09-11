@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace BaseLibrary
 {
-    public abstract class BaseClass : Controller
+    public abstract class BaseController : Controller
     {
 
     }

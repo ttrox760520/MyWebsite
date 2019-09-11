@@ -172,6 +172,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\AboutMe.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -190,6 +191,10 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Library\BaseLibrary\BaseLibrary.csproj">
+      <Project>{d2a54c38-2fda-4238-b195-747d8cd1a85e}</Project>
+      <Name>BaseLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Models\BaseModels\BaseModels.csproj">
       <Project>{7ffa0cc4-0480-42b2-93e2-ca9b698e747d}</Project>
       <Name>BaseModels</Name>

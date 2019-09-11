@@ -4,10 +4,12 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using myhtml.Models.Home;
+using BaseLibrary;
+
 
 namespace myhtml.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         public ActionResult Index()
         {
@@ -27,6 +29,11 @@ namespace myhtml.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+
+        public ActionResult AboutMe()
+        {
             return View();
         }
     }
