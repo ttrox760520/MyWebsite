@@ -9,7 +9,7 @@ using BaseLibrary;
 
 namespace myhtml.Controllers
 {
-    public class HomeController : BaseController
+    public partial class HomeController : BaseController  //partial可以用來切割過大的controller或model，原名稱後+_功能，以增加可讀性
     {
         public ActionResult Index()
         {
@@ -31,10 +31,10 @@ namespace myhtml.Controllers
 
             return View();
         }
-
-        public ActionResult AboutMe()
+        public ActionResult SignIn()
         {
             return View();
         }
+
     }
 }

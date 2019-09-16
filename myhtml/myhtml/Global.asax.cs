@@ -17,5 +17,10 @@ namespace myhtml
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+
+        protected void Application_error(object sender,EventArgs e)
+        {
+
+        }
     }
 }
